@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(dow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tk ul{
+	background-color: black;
+	text-align: center;
+}
+.tk ul li{
+	margin: 2px;
+	margin-right:10px;
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	margin-bottom: 20px;
+	
+}
+.tk ul li a{
+	text-decoration: none;
+	color: white;
+}
+.tk ul li a:hover{
+	color: green;
+}
+.active,.tk ul li a:hover{
+   background-color: darkgrey;
+   border-radius: 3px;
+}

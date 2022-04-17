@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.top{
+	display: flex;
+	width: 100%;
+	height: 50px;                               
+}
+.menu1{
+	background-color: white;
+	flex: 70%;
+}
+.menu1 ul{
+	padding: 2px;
+	margin: 15px;
+}
+.menu1 ul li{
+	margin: 2px;
+	margin-right:10px;
+	list-style: none;
+	display: inline-block;
+	float:right;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	color: darkgrey;
+	font-size: 15px;
+	margin-left: -10px;
+}
+.menu1 ul li a:hover{
+	color: rgb(0,100,0);
+}
+.top2{
+	display: flex;
+	width: 100%;
+	height: 100px;
+}
+.menu2{
+	background-color: white;
+	flex: 60%;
+}
+.menu2 ul{
+	padding: 15px;
+	margin: 20px;
+}
+.menu2 ul li{
+	padding: 10px;
+	margin-left:15px;
+	list-style: none;
+	display: inline-block;
+	float:right;
+}
+.menu2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin-left:-10px;
+}
+.active,.menu2 ul li a:hover{
+	color:#2bab0d;
+}
+.img{
+	flex: 20%;
+	margin: 20px;
+}
+.logo img{
+	width: 100%;
+}
+.body{
+	display: flex;
+	height: 250px;
+}
+.motto{
+	flex: 33px;
+	margin: 20px;
+}
+.mission{
+	flex: 33px;
+	margin: 20PX;
+}
+.vision{
+	flex: 34px;
+	margin: 20px;
+}
+.web{
+	display: flex;
+	background-color:whitesmoke;
+	width: 100%;
+	height: 400px;
+}
+.us{
+	flex: 70%;
+	margin-left: 20px;
+}
+.us h3{
+	float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.us h5{
+	margin-top: -90px;
+} 
+.us img{
+	margin-top: 20px;
+}
+
+.add{
+	margin-top: 20px;
+	flex: 30%;
+	background-color:lightgreen;
+	padding: 20px;
+	color: white;
+	margin-right: 10px;
+	height: 200px;
+}
+.add h3{
+	color: black;
+	background-color: white;
+}
+.link{
+	text-align: center;
+	margin: 15px;
+}
+.quick{
+	display: flex;
+	width: 100%;
+	height: 250px;
+}
+.nsu{
+	background-color: lightskyblue;
+	flex: 25%;
+	color: white;
+}
+.nsu p{
+	padding: 30px;
+	font-size: 20px;
+}
+.nsu h4{
+	margin: 20px;
+}
+.nsu button{
+	background-color: transparent;
+	padding: 10px 20px;
+	color: white;
+}
+.photo{
+	flex: 25%;
+	background-image: url(std.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.uni{
+	flex: 25%;
+	background-color: orangered;
+	color: white;
+}
+.uni p{
+	padding: 30px;
+	font-size: 20px;
+}
+.uni h4{
+	margin: 20px;
+}
+.uni button{
+	background-color: transparent;
+	padding: 9px 20px;
+	color: white;
+}
+.poto{
+	flex: 25%;
+	background-image: url(std1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.quick2{
+	display: flex;
+	width: 100%;
+	height: 250px;
+}
+.pics{
+	flex: 25%;
+	background-image: url(flaw.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.publi{
+	flex: 25%;
+	background-color: palegreen;
+	color: white;
+}
+.publi p{
+     padding: 30px;
+	font-size: 20px;	
+}
+.publi h4{
+	margin: 20px;
+}
+.publi button{
+	background-color: transparent;
+	padding: 9px 20px;
+	color: white;
+}
+.pic{
+	flex: 25%;
+	background-image: url(lbr.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.libr{
+	flex: 25%;
+	background-color: lightskyblue;
+	color: white;
+}
+.libr p{
+     padding: 30px;
+	font-size: 20px;
+}
+.libr h4{
+	margin: 20px;
+}
+.libr button{
+	background-color: transparent;
+	padding: 9px 20px;
+	color: white;
+}
+.news{
+	margin: 15px;
+}
+.events{
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+.emb{
+flex: 25%
+}
+.emb img{
+	width: 400px;
+	height: 250px;
+}
+.emb p{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.emb h5{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.vc{
+	flex: 25%;
+}
+.vc img{
+	width: 400px;
+	height: 250px;
+	margin-left: 60px; 
+}
+.vc p{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.vc h5{
+	margin-top: 20px;
+	margin-left: 80px;
+}
+.con{
+	flex: 25%;
+}
+.con img{
+	width: 350px;
+	height: 250px;
+	float: right;
+	padding-bottom: 15px;
+}
+.con p{
+	margin-left: 70px;
+	margin-top: 10px;
+}
+.con h5{
+	margin-left: 80px;
+}
+.alu{
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-image: url(alum.jpg);
+	background-size: cover;
+}
+.self{
+	flex: 50%;
+	background-color: #00000080;
+	color: white;
+	padding: 90px;
+	margin: 20px;
+	margin-left: 60px;
+}
+.int{
+	flex: 50%;
+	background-color: #00000080;
+	color: white;
+	padding: 90px;
+	margin: 20px;
+	margin-right: 60px;
+}
+.res{
+	flex: 50%;
+	background-color: #00000080;
+	color: white;
+	padding: 90px;
+	margin: 20px;
+	margin-left: 60px;
+}
+.abu{
+	flex: 50%;
+	background-image: url(adm.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 90px;
+	margin: 20px;
+	margin-right: 60px;
+}
+.p7{
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+.newsl{
+	flex: 33%;
+
+}
+.newsl h3{
+padding: 15px;
+}
+.newsl h4{
+	padding: 9px;
+	margin-right: 8px;
+}
+.newsl p{
+ border:1px solid black;
+ padding: 20px;
+ font-size: 15px;
+ margin-left: 7px;
+ }
+.newsl button{
+	background-color: lightgreen;
+	padding: 9px 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 7px;
+	margin-top: -8px;
+}
+.newsl li{
+	margin-left: 10px;
+	padding: 7px;
+}
+.fb{
+flex: 35%;
+
+}
+.contact{
+flex: 32%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
